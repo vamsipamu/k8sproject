@@ -38,3 +38,7 @@ secret access key: ***********
 
 create cluster using command:
 eksctl create cluster --name practicedeployment --region us-east-1 --fargate
+
+
+aws eks update-kubeconfig --name <cluster-name> --region <region>
+
