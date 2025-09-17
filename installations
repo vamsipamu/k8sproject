@@ -42,3 +42,6 @@ eksctl create cluster --name practicedeployment --region us-east-1 --fargate
 
 aws eks update-kubeconfig --name <cluster-name> --region <region>
 
+Delete the cluster:
+eksctl delete cluster --name cluster-name --region region-name
+
